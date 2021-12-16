@@ -1,0 +1,25 @@
+.v1{
+  position: relative;
+/*  bottom: 10px;*/
+  left: 150px;
+/*  padding-left: 150px;*/
+ /* width: 500px;
+*//*max-width: 100px;*/
+
+  border:  1px solid green;
+
+}
+.v2{
+  position: relative;
+/*  bottom: 0;*/
+  right: 150px;
+/*  width: 300px;*/
+/*max-width: 500px;*/
+  border:  1px solid orange;
+
+}
+/*v3{
+ position: relative;
+ right: 50percentages;
+ max-width: 500px;
+}*/

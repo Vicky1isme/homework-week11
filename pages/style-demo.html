@@ -1,0 +1,344 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Template Name: PhotoProwess
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="style-demo.css">
+<title>PhotoProwess | Style Demo</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="../layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="../layout/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="../layout/scripts/jquery.ui.min.js"></script>
+<script type="text/javascript" src="../layout/scripts/jquery.defaultvalue.js"></script>
+<script type="text/javascript" src="../layout/scripts/jquery.scrollTo-min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    $("#fullname, #validemail, #message").defaultvalue("Full Name", "Email Address", "Message");
+    $('#shout a').click(function () {
+        var to = $(this).attr('href');
+        $.scrollTo(to, 1200);
+        return false;
+    });
+    $('a.topOfPage').click(function () {
+        $.scrollTo(0, 1200);
+        return false;
+    });
+    $("#tabcontainer").tabs({
+        event: "click"
+    });
+});
+</script>
+</head>
+<body id="top">
+<div class="wrapper col1">
+  <div id="topbar" class="clear">
+    <ul>
+      <li><a href="#">Libero</a></li>
+      <li><a href="#">Maecenas</a></li>
+      <li><a href="#">Mauris</a></li>
+      <li class="last"><a href="#">Suspendisse</a></li>
+    </ul>
+    <form action="#" method="post" id="search">
+      <fieldset>
+        <legend>Site Search</legend>
+        <input type="text" value="Search Our Website&hellip;" onfocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;" />
+        <input type="image" id="go" src="../images/search.gif" alt="Search" />
+      </fieldset>
+    </form>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col2">
+  <div id="header" class="clear">
+    <div class="fl_left">
+      <h1><a href="../index.html">PhotoProwess</a></h1>
+      <p>Free Website Template</p>
+    </div>
+    <div id="topnav">
+      <ul>
+        <li class="last"><a href="gallery.html">Gallery</a><span>Test Text Here</span></li>
+        <li><a href="portfolio.html">Portfolio</a><span>Test Text Here</span></li>
+        <li><a href="#">DropDown</a><span>Test Text Here</span>
+          <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+          </ul>
+        </li>
+        <li><a href="full-width.html">Full Width</a><span>Test Text Here</span></li>
+        <li class="active"><a href="style-demo.html">Style Demo</a><span>Test Text Here</span></li>
+        <li><a href="../index.html">Homepage</a><span>Test Text Here</span></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col4">
+  <div id="container" class="clear"> 
+    <!-- ####################################################################################################### -->
+   <div>
+
+
+    <!-- ####################################################################################################### -->
+    <div id="content">
+ 
+
+     <div class="vv0"> 
+  <form method = "post" action = "http://www.detail.com">
+    <table style="border:3px #cccccc solid;" cellpadding="10" border=‘1’>
+
+      <tr>
+        <th colspan = "3"><q><em>About-110209003</em></q></th>
+      </tr>
+      <tr>
+        <td rowspan = "3">
+        
+              <img src="reading.jpg" width = "500" alt = 'books'>
+              <figcaption><p>personal photo</p></figcaption>
+        
+        </td>
+        <td colspan = "2">
+        <label><Name:<input name = "name" type  = "text size = "25maxlength = "30">><label>
+        <br><div><spann>
+        Gender:<input type = "radio" name = "gender" value = "male" >Male<input type = "radio" name = "gender" value = "female" >Female<input type = "radio" name = "gender" value = "other" >Other</spann></div>
+  
+        </td>
+      </tr>
+      <tr>
+        <td>Country: 
+          <select name ="place">
+            <option value ="place">Taipei</option>
+            <option value ="place">Tainan</option>
+            <option value ="place">Taichung</option>
+            <option value ="place">Taoyuan</option>
+          </select>
+        </td>
+        <td>
+
+          Birthday:<input type="date" id="start" name="trip-start"
+                 value="年-月-日"
+                 min="2000-01-01" max="2021-12-31">
+        </td>
+      </tr>
+      <tr>
+        <td colspan = "2"><label>Email:<input name = "name" type  = "text size = "25maxlength = "30"><label>
+      </tr>
+      <tr>
+        <td>Hobby</td>
+        <td colspan = "2"><lii><em>
+          <input type ="checkbox" name="Hobby" value="Swimming">Swimming
+          <input type ="checkbox" name="Hobby" value="Volleyball">Volleyball
+          <input type ="checkbox" name="Hobby" value="Movie">Movie
+          <input type ="checkbox" name="Hobby" value="Game">Game
+          <input type ="checkbox" name="Hobby" value="Sleep">Sleep</em></lii>
+        </td>
+      </tr>
+        <td>Skill</td>
+        <td colspan = "2"><lii><em>
+          <input type ="checkbox" name="Skill" value="Java">Java
+          <input type ="checkbox" name="Skill" value="HTML">HTML
+          <input type ="checkbox" name="Skill" value="Python">Python
+          <input type ="checkbox" name="Skill" value="Microsoft Office">Microsoft Office
+          <input type ="checkbox" name="Skill" value="Premiere">Premiere</em></lii>
+        </td>
+      <tr>
+        <td ><div class = "extra" style="color: pink"><spann>Say Something</spann></div></td>
+        <td colspan = "2"><div class = "extra" style = color: green>
+          <textarea rows = "1" cols = "20">Say something here.</textarea>
+        </td>
+      </tr> 
+      <tr>
+        
+        <th colspan = "3">
+          <div align = "left">
+            <input type ="submit" value="提交">
+            <input type ="reset" value = "重設">
+          </div>
+        </th>
+        
+      </tr>
+  </form>
+      
+    </div>
+   </div>
+ </div>
+
+
+   
+      <table summary="Summary Here" cellpadding="0" cellspacing="0">
+        <thead>
+          <tr>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="light">
+            
+          </tr>
+          <tr class="dark">
+           
+          </tr>
+          <tr class="light">
+            
+          </tr>
+          <tr class="dark">
+          
+          </tr>
+        </tbody>
+      </table>
+      <div id="comments">
+       
+            <div class="author"></div>
+            <div class="submitdate"></div>
+            
+            <div class="author"></div>
+            <div class="submitdate"></div>
+            
+            <div class="author"></div>
+            <div class="submitdate"></div>
+            
+      </div>
+      
+      </div>
+    </div>
+    <div id="column">
+      <div class="subnav">
+        
+      </div>
+      <div class="holder">
+        
+      </div>
+      <div id="featured">
+        
+      </div>
+      <div class="holder">
+        
+      </div>
+    </div>
+    <!-- ####################################################################################################### -->
+    <div class="clear"></div>
+    <div class="vv1"> 
+      <div class='vv2'> 
+          
+     <img width="500" height="500" src="apple.jpg" style="display:block; margin:auto;" /> 
+      
+   
+     </div> 
+   </div>
+    
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper">
+  <div id="footer" class="clear">
+    <div class="fl_left">
+      <div class="about_us border">
+        <h2>About Us</h2>
+        <p>Sednulla nam nibh a nibh eu urna facinia mauristibulus sit urna. Vitaerisus lobortis proin elit et curabituris elit estibulum cursus iacus orci. Dignissimmorbi rhoncus sed netus ligula conseque netus nulla aliquat id dui. Ipsumintesque venean hendiment enim nis maecenas justo justo vitae purus sed. Rutrumcondimentumsan elit.</p>
+      </div>
+      <div id="contact" class="clear">
+        <h2>Contact Us</h2>
+        <div class="fl_left">
+          <form method="post" action="#">
+            <label for="fullname">Name:</label>
+            <input type="text" name="fullname" id="fullname" value="" />
+            <label for="validemail">Email:</label>
+            <input type="text" name="validemail" id="validemail" value="" />
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" cols="45" rows="10"></textarea>
+            <button type="submit" value="submit"><span>Submit</span></button>
+          </form>
+        </div>
+        <div class="fl_right">
+          <address>
+          <strong class="title">Company Name</strong><br />
+          Street Name &amp; Number<br />
+          Town<br />
+          Postcode/Zip
+          </address>
+          <ul>
+            <li><strong class="title">Tel:</strong><br />
+              xxxxx xxxxxxxxxx</li>
+            <li><strong class="title">Fax:</strong><br />
+              xxxxx xxxxxxxxxx</li>
+            <li><strong class="title">Email:</strong><br />
+              <a href="#">contact@mydomain.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- ####################################################################################################### -->
+    <div class="fl_right">
+      <div id="tabcontainer" class="border">
+        <ul id="tabnav">
+          <li><a href="#tabs-1">From The Blog</a></li>
+          <li><a href="#tabs-2">Latest Tweets</a></li>
+          <li class="last"><a href="#tabs-3">Interesting Links</a></li>
+        </ul>
+        <div id="tabs-1" class="tabcontainer">
+          <ul class="blogposts">
+            <li>
+              <p class="posttitle">Justoid nonummy laoreet phasellent</p>
+              <p class="publishedon">Published on 01 Jan 2042, by Username</p>
+              <p class="postintro">Miet gravida nulla at augue curabitae faucibulum nulla curabitur consectetus dolorem. Ametuervestibus nam nibh laculis vivamus suscinia masse convallis sollis quam males.</p>
+              <p class="readmore"><a href="#">Read More &raquo;</a></p>
+            </li>
+            <li class="last">
+              <p class="posttitle">Justoid nonummy laoreet phasellent</p>
+              <p class="publishedon">Published on 01 Jan 2042, by Username</p>
+              <p class="postintro">Miet gravida nulla at augue curabitae faucibulum nulla curabitur consectetus dolorem. Ametuervestibus nam nibh laculis vivamus suscinia masse convallis sollis quam males.</p>
+              <p class="readmore"><a href="#">Read More &raquo;</a></p>
+            </li>
+          </ul>
+        </div>
+        <!-- ########### -->
+        <div id="tabs-2" class="tabcontainer">
+          <ul class="twitterfeed">
+            <li><a href="#">@namehere</a> Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoreet tincidunt ut vel velit. <span>1 day ago</span></li>
+            <li><a href="#">@namehere</a> Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoreet tincidunt ut vel velit. <span>1 day ago</span></li>
+            <li><a href="#">@namehere</a> Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoreet tincidunt ut vel velit. <span>1 day ago</span></li>
+            <li class="last"><a href="#">@namehere</a> Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoreet tincidunt ut vel velit. <span>1 day ago</span></li>
+          </ul>
+        </div>
+        <!-- ########### -->
+        <div id="tabs-3" class="tabcontainer">
+          <ul>
+            <li><a href="#">Lorem ipsum dolor sit</a></li>
+            <li><a href="#">Amet consectetur</a></li>
+            <li><a href="#">Praesent vel sem id</a></li>
+            <li><a href="#">Curabitur hendrerit est</a></li>
+            <li><a href="#">Aliquam eget erat nec sapien</a></li>
+            <li><a href="#">Cras id augue nunc</a></li>
+            <li><a href="#">In nec justo non</a></li>
+            <li><a href="#">Vivamus mollis enim ut</a></li>
+            <li class="last"><a href="#">Sed a nulla urna</a></li>
+          </ul>
+        </div>
+      </div>
+      <h2>Keep Up To Date</h2>
+      <ul class="socialize">
+        <li><span>Facebook:</span> <a href="#">www.facebook.com/myhandel</a></li>
+        <li><span>Twitter:</span> <a href="#">www.twitter.com/myhandel</a></li>
+        <li class="last"><span>LinkedIn:</span> <a href="#">www.linkedin.com/myhandel</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="backtotop"><a href="#top" class="topOfPage">To The Top</a></div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper">
+  <div id="copyright" class="clear">
+    <p class="fl_left">Copyright &copy; 2014 - All Rights Reserved - <a href="#">Domain Name</a></p>
+    <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+  </div>
+</div>
+</body>
+</html>

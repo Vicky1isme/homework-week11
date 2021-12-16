@@ -1,0 +1,27 @@
+
+/*		q { font-family: tahoma, helvetica, sans-serif; }
+		pp { font-size: 40pt;}
+		spann {
+			color: blue;
+			border: 1px solid black;
+		}
+		.extra spann{
+			color: inherit;
+		}
+		lii em { font-weight:  bold; }
+		h3, em { text-decoration: underline; }*/
+	
+.vv0{  position: relative;
+/*  bottom: 10px;*/
+  left: 50%;}
+.vv1{
+	background-image: url("tree.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border:  1px solid green;}
+.vv2{border:  10px solid yellow;
+	margin-top: 50px;
+	margin-bottom: 50px;
+margin-left: 220px;
+margin-right: 220px;}
+
